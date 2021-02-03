@@ -9,3 +9,15 @@ function result(): number {
 }
 
 result();
+
+// Optional parameter
+function hello(a: string, b?: boolean) {
+    if (b) {
+        return `Hi~ I am ${a}.`;        
+    } else {
+        return 'Sorry, sir.';
+    }
+}
+
+hello('Johnny');
+hello('Sarah', true);
