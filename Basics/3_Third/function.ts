@@ -4,11 +4,11 @@ function multiply(a: number, b: number): number {
 
 multiply(2, 7);
 
-function result(): number {
+function results(): number {
     return 10;
 }
 
-result();
+results();
 
 // Optional parameter
 function hello(a: string, b?: boolean) {
