@@ -11,18 +11,6 @@ module.exports = {
   ],
   plugins: ['prettier', '@typescript-eslint'],
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        semi: true,
-        useTabs: false,
-        tabWidth: 2,
-        printWidth: 80,
-        bracketSpacing: true,
-        arrowParens: 'avoid',
-      },
-    ],
     '@typescript-eslint/no-explicit-any': 'off',
     'prefer-const': 'off',
   },
