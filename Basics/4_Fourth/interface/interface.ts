@@ -53,4 +53,18 @@ let fileRegex: StringRegexDictionary = {
 
 Object.keys(fileRegex).forEach(value => { });
 
+// Interface extension
+interface Person {
+    name: string,
+    age: number
+}
 
+interface Developer extends Person {
+    skill: string
+}
+
+let jay: Developer = {
+    name: 'Jay',
+    age: 48,
+    skill: 'JavaScript'
+};
