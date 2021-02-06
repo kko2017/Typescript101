@@ -29,3 +29,15 @@ function askJob(someone: Musician | Player) {
     someone.instrument;
     someone.sport;
 }
+
+askJob({ name: 'Yoo', sport: 'Baseball' });
+askJob({ name: 'Ryu', instrument: 'violin' });
+
+// Intersection type
+function haveBothJobs(someone: Musician & Player) {
+    someone.name;
+    someone.instrument;
+    someone.sport;
+}
+
+haveBothJobs({ name: 'June', sport: 'Basketball', instrument: 'piano' });
