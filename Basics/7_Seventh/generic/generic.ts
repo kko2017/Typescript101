@@ -28,3 +28,26 @@ let rolex: Clock<string> = {
     name: 'Rolex',
     selected: true
 };
+
+// Constraining generic type in order to use built-in JavaScript api
+function textsLength<T>(texts: T[]): T[] {
+    console.log(texts.length);
+    texts.forEach(text => console.log(text));
+    return texts;
+}
+
+textsLength<string>(['Hello', 'Hi', 'Goodbye']);
+
+// Declaration of Generic type
+interface Length {
+    length: number;
+}
+
+function logTextsLength<T extends Length>(texts: T): T{
+    console.log(texts.length);
+    return texts;
+}
+
+logTextsLength({ length: 10 });
+logTextsLength('abc');
+logTextsLength(['abc']);
