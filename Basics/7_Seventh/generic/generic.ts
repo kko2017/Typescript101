@@ -16,3 +16,15 @@ function smsText(text: string | number) {
 
 let send = smsText('hi');
 send.split('').reverse().join();
+
+
+// Generic Interface
+interface Clock<T>{
+    name: T;
+    selected: boolean;
+}
+
+let rolex: Clock<string> = {
+    name: 'Rolex',
+    selected: true
+};

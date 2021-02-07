@@ -1,26 +1,29 @@
-const emails = [
+var emails = [
     { value: 'naver.com', selected: true },
     { value: 'gmail.com', selected: false },
     { value: 'hanmail.net', selected: false },
 ];
-
-const numberOfProducts = [
+var numberOfProducts = [
     { value: 1, selected: true },
     { value: 2, selected: false },
     { value: 3, selected: false },
 ];
-
 function createDropdownItem(item) {
-    const option = document.createElement('option');
+    var option = document.createElement('option');
     option.value = item.value.toString();
     option.innerText = item.value.toString();
     option.selected = item.selected;
     return option;
 }
-
-// NOTE: 이메일 드롭 다운 아이템 추가
+// NOTE: add drop down options in emails
 emails.forEach(function (email) {
-    const item = createDropdownItem(email);
-    const selectTag = document.querySelector('#email-dropdown');
+    var item = createDropdownItem(email);
+    var selectTag = document.querySelector('#email-dropdown');
+    selectTag.appendChild(item);
+});
+// NOTE: add drop down options in products
+numberOfProducts.forEach(function (product) {
+    var item = createDropdownItem(product);
+    var selectTag = document.querySelector('#product-dropdown');
     selectTag.appendChild(item);
 });
