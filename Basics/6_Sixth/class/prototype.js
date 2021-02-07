@@ -10,3 +10,6 @@ console.log(admin.__proto__);
 
 admin.role = 'admin';
 console.log(admin);
+
+// hasOwnProperty is inherited method from Object in __proto__
+console.log(admin.hasOwnProperty('role'));
