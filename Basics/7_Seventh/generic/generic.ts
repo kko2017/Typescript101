@@ -15,4 +15,4 @@ function smsText(text: string | number) {
 }
 
 let send = smsText('hi');
-send.split('').reverse.join();
+send.split('').reverse().join();
