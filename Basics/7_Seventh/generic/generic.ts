@@ -51,3 +51,17 @@ function logTextsLength<T extends Length>(texts: T): T{
 logTextsLength({ length: 10 });
 logTextsLength('abc');
 logTextsLength(['abc']);
+
+
+// Constraint of keyof
+interface ShoppingItem {
+    name: string;
+    price: number;
+    stock: number;
+}
+
+function getShoppingItem<T extends keyof ShoppingItem>(item: T): T {
+    return item;
+}
+
+getShoppingItem("name");
