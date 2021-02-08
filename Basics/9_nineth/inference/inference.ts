@@ -5,7 +5,7 @@ interface Dropdown<T> {
     title: string;
 }
 
-interface DetailedDropdown<K> extends Dropdown<T> {
+interface DetailedDropdown<K> extends Dropdown<K> {
     description: string;
     tag: K;
 }
@@ -21,3 +21,8 @@ let shoppingItem: DetailedDropdown<string> = {
     description: 'This is food',
     tag: 'F'
 };
+
+/**
+ * Best Common Type. ponit the cursor on arr.
+ */
+let arr = [1, 2, null, true, false, 'abc'];
