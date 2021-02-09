@@ -4,7 +4,7 @@
 
 ### Objective
 
-In this repository, I will practice typescript I learned.
+In this repository, I will practice typescript I have learned.
 
 ### Configuration
 
