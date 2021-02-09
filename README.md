@@ -4,7 +4,7 @@
 
 ### Objective
 
-This repository is a playground for practicing what I've learned about `TypeScript`. It is a beginner's level of TypeScript and What I made here comes from the online course, [Typescript 101](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8#), that I took in [Inflearn](https://www.inflearn.com/).
+This repository is a playground for practicing what I've learned about `TypeScript`. It is a beginner's level of TypeScript and what I made here basically comes from the online course, [Typescript 101](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8#), that I took in [Inflearn](https://www.inflearn.com/).
 
 ### Configuration
 
@@ -24,7 +24,7 @@ This repository is a playground for practicing what I've learned about `TypeScri
 10. [Compatibility / Module](https://github.com/kko2017/Typescript101/tree/master/Basics/10_Tenth)
 11. [Mapped Type / Utility Types (Partial, Pick, Omit)](https://github.com/kko2017/Typescript101/tree/master/Basics/11_Eleventh)
 
-#### References
+### References
 + [TypeScript Documentation](https://www.typescriptlang.org/docs/handbook/intro.html)
 + [TypeScript Playground](https://www.typescriptlang.org/play)
 + [TypeScript 101 in Inflearn](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8#)
