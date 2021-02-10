@@ -4,7 +4,7 @@
 
 ### Objective
 
-This repository is one of my playgrounds for practicing what I've learned about `TypeScript`. It is a beginner's level of TypeScript and what I made here basically comes from the online course, [Typescript 101](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8#), that I took in [Inflearn](https://www.inflearn.com/).
+This repository is one of my playgrounds for practicing what I've learned about `TypeScript`. It is a beginner's level of `TypeScript` and what I made here basically comes from the online course, [Typescript 101](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8#), that I took in [Inflearn](https://www.inflearn.com/).
 
 ### Configuration
 
